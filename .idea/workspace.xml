@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8eb93d8-a816-4532-9e15-eb135ca62155" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Config/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Config/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Console/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Database/Migrations/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Database/Seeders/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Database/Seeders/AdminDatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Database/factories/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Entities/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Http/Controllers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Http/Controllers/AdminController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Http/Middleware/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Http/Requests/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Providers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Providers/AdminServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/assets/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/lang/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/master.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Routes/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Tests/Feature/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Tests/Unit/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/module.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticleSpecies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticleSpeciesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Species.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/AdminModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ArticleSpeciesModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/CategoryModels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/SpeciesModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/SpeciesModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_161323_create_organizations_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_162106_create_species_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_24_162106_create_species_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_162220_create_category_species_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_162307_create_article_species_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_163344_create_register_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_163450_create_transactions_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_163655_create_articles_organization_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_163834_create_articles_user_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_05_01_085106_create_sessions_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="for_community" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/laravel/helpers" />
+      <path value="$PROJECT_DIR$/vendor/nwidart/laravel-modules" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/vendor/tymon/jwt-auth" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1ZQ5yFpkVSoAZsfq1Qum1L3qFre" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\Laravel\for_community\app\Models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\Laravel\for_community\app\Http\Controllers" />
+      <recent name="D:\xampp\htdocs\Laravel\for_community\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8eb93d8-a816-4532-9e15-eb135ca62155" name="Default Changelist" comment="" />
+      <created>1584758729857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584758729857</updated>
+      <workItem from="1584758732598" duration="1817000" />
+      <workItem from="1584772636094" duration="3149000" />
+      <workItem from="1584776045145" duration="9702000" />
+      <workItem from="1584890584007" duration="15000" />
+      <workItem from="1585055028619" duration="8381000" />
+      <workItem from="1585095171139" duration="5478000" />
+      <workItem from="1585145566819" duration="6237000" />
+      <workItem from="1585184690796" duration="119000" />
+      <workItem from="1585184901963" duration="1257000" />
+      <workItem from="1585217481452" duration="1212000" />
+      <workItem from="1585239621869" duration="7000" />
+      <workItem from="1585392716381" duration="4000" />
+      <workItem from="1585394294551" duration="4116000" />
+      <workItem from="1585404472266" duration="3211000" />
+      <workItem from="1585408790808" duration="2026000" />
+      <workItem from="1585443638185" duration="4078000" />
+      <workItem from="1585463002034" duration="1388000" />
+      <workItem from="1585491428563" duration="617000" />
+      <workItem from="1585535330808" duration="1714000" />
+      <workItem from="1585569407359" duration="1624000" />
+      <workItem from="1585618548539" duration="1852000" />
+      <workItem from="1585638757851" duration="14950000" />
+      <workItem from="1585749840368" duration="4051000" />
+      <workItem from="1585790274150" duration="4768000" />
+      <workItem from="1585801119803" duration="11000" />
+      <workItem from="1585801537768" duration="1420000" />
+      <workItem from="1585808505309" duration="10534000" />
+      <workItem from="1585881259436" duration="4402000" />
+      <workItem from="1585999884144" duration="3680000" />
+      <workItem from="1586581214544" duration="240000" />
+      <workItem from="1586658563230" duration="4247000" />
+      <workItem from="1586677742982" duration="9393000" />
+      <workItem from="1586699709826" duration="1712000" />
+      <workItem from="1586746849252" duration="981000" />
+      <workItem from="1586782827636" duration="6301000" />
+      <workItem from="1586823089534" duration="9435000" />
+      <workItem from="1586848904817" duration="1269000" />
+      <workItem from="1586929143494" duration="3411000" />
+      <workItem from="1586942251555" duration="3879000" />
+      <workItem from="1586959948644" duration="1728000" />
+      <workItem from="1587026120845" duration="2315000" />
+      <workItem from="1587114350325" duration="429000" />
+      <workItem from="1587120395147" duration="2890000" />
+      <workItem from="1587193983956" duration="643000" />
+      <workItem from="1587281587872" duration="4296000" />
+      <workItem from="1587303199725" duration="1355000" />
+      <workItem from="1587455392577" duration="620000" />
+      <workItem from="1587776812260" duration="6524000" />
+      <workItem from="1587893242921" duration="1570000" />
+      <workItem from="1587943454120" duration="2339000" />
+      <workItem from="1587954508251" duration="598000" />
+      <workItem from="1587969192227" duration="9270000" />
+      <workItem from="1588035719728" duration="18017000" />
+      <workItem from="1588089304576" duration="3464000" />
+      <workItem from="1588121358498" duration="1559000" />
+      <workItem from="1588128138813" duration="1219000" />
+      <workItem from="1588145300941" duration="5518000" />
+      <workItem from="1588165111080" duration="2035000" />
+      <workItem from="1588209519263" duration="12999000" />
+      <workItem from="1588234991305" duration="1014000" />
+      <workItem from="1588244118829" duration="96000" />
+      <workItem from="1588246733417" duration="2675000" />
+      <workItem from="1588296543549" duration="600000" />
+      <workItem from="1588299203647" duration="9452000" />
+      <workItem from="1588313870366" duration="11007000" />
+      <workItem from="1588330230886" duration="3015000" />
+      <workItem from="1588431844415" duration="615000" />
+      <workItem from="1588757166574" duration="27000" />
+      <workItem from="1602207879537" duration="1546000" />
+      <workItem from="1602211393919" duration="82000" />
+      <workItem from="1604629832301" duration="3085000" />
+      <workItem from="1607351682323" duration="2698000" />
+      <workItem from="1607436666994" duration="714000" />
+      <workItem from="1607444253902" duration="605000" />
+      <workItem from="1607477353815" duration="1224000" />
+      <workItem from="1607522857080" duration="8625000" />
+      <workItem from="1607580210017" duration="763000" />
+      <workItem from="1607616992193" duration="6952000" />
+      <workItem from="1607650426073" duration="9410000" />
+      <workItem from="1607737191052" duration="6962000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="472" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607529576750">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="472" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1607529576750" />
+    <state x="499" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607656498161">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1607656498161" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1607650515761">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602208843264" />
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1607650515761" />
+    <state width="555" height="446" key="SwitcherDM" timestamp="1607655690896">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="555" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1607655690896" />
+    <state x="463" y="149" width="609" height="536" key="find.popup" timestamp="1607621545847">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="463" y="149" width="609" height="536" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1607621545847" />
+    <state x="425" y="71" width="670" height="676" key="search.everywhere.popup" timestamp="1607779892740">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="71" width="670" height="676" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1607779892740" />
+  </component>
+</project>
