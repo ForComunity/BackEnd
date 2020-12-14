@@ -30,6 +30,7 @@ class CreateOrganizationTable extends Migration
             $table->integer('cat_id')->nullable();
             $table->integer('user_id')->nullable();
             $table->tinyInteger('status')->default(1);
+            $table->tinyInteger('active')->default(1);
             $table->timestamps();
 
             $table->engine = 'InnoDB';

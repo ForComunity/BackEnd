@@ -20,9 +20,6 @@ class CreateRegistToBeRescuedTable extends Migration
             $table->string('email', 99)->nullable();
             $table->string('phone', 99);
             $table->string('address', 99);
-            $table->string('image1', 255)->nullable();
-            $table->string('image2', 255)->nullable();
-            $table->string('image3', 255)->nullable();
             $table->text('description')->nullable();
             $table->text('message')->nullable();
             $table->string('spe_name', 99)->nullable();

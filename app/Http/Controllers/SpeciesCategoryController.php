@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\CategoryModel;
 use App\Models\SpeciesCategoryModel;
+use App\Models\SpeciesModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -73,5 +74,26 @@ class SpeciesCategoryController extends Controller
         }
         $speciesCategory->delete();
         return response()->json(null, 204);
+    }
+    public function changeStatus($id)
+    {
+        $speciesCategory = SpeciesCategoryModel::find($id);
+        if (is_null($speciesCategory)) {
+            return Response()->json(["message" => "Record not found!!"], 404);
+        }
+        $speciesCategory->status = $speciesCategory->status ? 0 : 1;
+        $speciesCategory->save();
+        return response()->json($speciesCategory, 200);
+    }
+
+    public function changeActive($id)
+    {
+        $speciesCategory = SpeciesCategoryModel::find($id);
+        if (is_null($speciesCategory)) {
+            return Response()->json(["message" => "Record not found!!"], 404);
+        }
+        $speciesCategory->active = $speciesCategory->active ? 0 : 1;
+        $speciesCategory->save();
+        return response()->json($speciesCategory, 200);
     }
 }

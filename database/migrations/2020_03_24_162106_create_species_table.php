@@ -19,7 +19,8 @@ class CreateSpeciesTable extends Migration
             $table->string('slug', 99)->nullable();
             $table->integer('spe_cat_id')->nullable();
             $table->integer('status')->default(1);
-            $table->string('cat_id', 99)->nullable();
+            $table->integer('active')->default(1);
+            $table->integer('cat_id')->nullable();
             $table->integer('user_id')->nullable();
             $table->string('image1', 200)->nullable();
             $table->string('image2', 200)->nullable();

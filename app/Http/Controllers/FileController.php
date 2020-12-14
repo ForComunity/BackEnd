@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\ArticleSpeciesModel;
 use App\Models\CategoryModel;
+use App\Models\OrganizationModel;
+use App\Models\RescueCategoryModel;
+use App\Models\SpeciesModel;
 use Illuminate\Http\Request;
 
 class FileController extends Controller
@@ -11,28 +14,41 @@ class FileController extends Controller
     public  function articleSpeciesList(){
         return response()->download(public_path(''));
     }
-    public function FileSave(Request $request){
+    public function FileCategory(Request $request){
         $category = new CategoryModel();
         if($request->hasFile('avatar')){
             upload_image('avatar');
         }
-//        if($request->hasFile('spe_images2')){
-//            upload_image('spe_images2');
-//        }
-//        if($request->hasFile('spe_images3')){
-//            upload_image('spe_images3');
-//        }
     }
-    public function FileSaveArticles(Request $request){
-        $ArticlesSpecies = new ArticleSpeciesModel();
-        if($request->hasFile('as_images1')){
-            upload_image('as_images1');
+
+    public function FileRescueCategory(Request $request){
+        $rescueCategory = new RescueCategoryModel();
+        if($request->hasFile('avatar')){
+            upload_image('avatar');
         }
-        if($request->hasFile('as_images2')){
-            upload_image('as_images2');
+    }
+    public function FileSpecies(Request $request){
+        $Species = new SpeciesModel();
+        if($request->hasFile('image1')){
+            upload_image('image1');
         }
-        if($request->hasFile('as_images3')){
-            upload_image('as_images3');
+        if($request->hasFile('image2')){
+            upload_image('image2');
+        }
+        if($request->hasFile('image3')){
+            upload_image('image3');
+        }
+    }
+    public function FileOrganization(Request $request){
+        $organization = new OrganizationModel();
+        if($request->hasFile('image1')){
+            upload_image('image1');
+        }
+        if($request->hasFile('image2')){
+            upload_image('image2');
+        }
+        if($request->hasFile('image3')){
+            upload_image('image3');
         }
     }
 }

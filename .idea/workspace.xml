@@ -3,61 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="a8eb93d8-a816-4532-9e15-eb135ca62155" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Config/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Config/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Console/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Database/Migrations/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Database/Seeders/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Database/Seeders/AdminDatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Database/factories/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Entities/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Http/Controllers/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Http/Controllers/AdminController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Http/Middleware/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Http/Requests/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Providers/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Providers/AdminServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/assets/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/assets/sass/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/lang/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/master.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Routes/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Tests/Feature/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/Tests/Unit/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/module.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Admin/webpack.mix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticleSpecies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticleSpeciesController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Category.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Species.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RegistToBeRescuedController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RegistToBeRescuedController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RescueCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RescueCategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RescueController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RescueController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SpeciesCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SpeciesCategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SpeciesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SpeciesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/AdminModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/ArticleSpeciesModel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/CategoryModels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/CommentModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/CommentModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/SpeciesModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/SpeciesModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_161323_create_organizations_table.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_162106_create_species_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_24_162106_create_species_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_162220_create_category_species_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_162307_create_article_species_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_163344_create_register_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_163450_create_transactions_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_163655_create_articles_organization_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_163834_create_articles_user_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_05_01_085106_create_sessions_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_09_145245_create_species_category_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_09_145245_create_species_category_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_09_145531_create_regist_to_be_rescued_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_09_145531_create_regist_to_be_rescued_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_09_145545_create_comment_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_09_145545_create_comment_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_09_145626_create_organization_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_09_145626_create_organization_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +164,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/uploads/2020/04/17" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -212,12 +174,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\Laravel\for_community\app\Models" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\Laravel\for_community\public\uploads\2020\04\17" />
       <recent name="D:\xampp\htdocs\Laravel\for_community\app\Http\Controllers" />
       <recent name="D:\xampp\htdocs\Laravel\for_community\app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\Laravel\for_community\app\Models" />
     </key>
   </component>
   <component name="RunManager">
@@ -327,7 +290,8 @@
       <workItem from="1607580210017" duration="763000" />
       <workItem from="1607616992193" duration="6952000" />
       <workItem from="1607650426073" duration="9410000" />
-      <workItem from="1607737191052" duration="6962000" />
+      <workItem from="1607737191052" duration="12807000" />
+      <workItem from="1607822299965" duration="26990000" />
     </task>
     <servers />
   </component>
@@ -342,26 +306,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="472" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1607529576750" />
-    <state x="499" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607656498161">
+    <state x="499" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607881692443">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="499" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1607656498161" />
-    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1607650515761">
+    <state x="499" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1607881692443" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1607857068883">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602208843264" />
-    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1607650515761" />
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1607857068883" />
     <state width="555" height="446" key="SwitcherDM" timestamp="1607655690896">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="555" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1607655690896" />
-    <state x="463" y="149" width="609" height="536" key="find.popup" timestamp="1607621545847">
+    <state x="463" y="149" width="609" height="536" key="find.popup" timestamp="1607857044777">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="463" y="149" width="609" height="536" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1607621545847" />
-    <state x="425" y="71" width="670" height="676" key="search.everywhere.popup" timestamp="1607779892740">
+    <state x="463" y="149" width="609" height="536" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1607857044777" />
+    <state x="425" y="71" width="670" height="676" key="search.everywhere.popup" timestamp="1607881001875">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="425" y="71" width="670" height="676" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1607779892740" />
+    <state x="425" y="71" width="670" height="676" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1607881001875" />
   </component>
 </project>

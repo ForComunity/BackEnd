@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\CategoryModel;
+use App\Models\SpeciesModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -74,5 +75,15 @@ class CategoryController extends Controller
         }
         $category->delete();
         return response()->json(null, 204);
+    }
+    public function changeStatus($id)
+    {
+        $category = CategoryModel::find($id);
+        if (is_null($category)) {
+            return Response()->json(["message" => "Record not found!!"], 404);
+        }
+        $category->status = $category->status ? 0 : 1;
+        $category->save();
+        return response()->json($category, 200);
     }
 }

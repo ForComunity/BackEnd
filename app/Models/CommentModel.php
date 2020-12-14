@@ -11,6 +11,7 @@ class CommentModel extends Model
     protected $fillable = [
         'id',
         'user_id',
+        'species_id',
         'content',
         'status',
         'created_at',

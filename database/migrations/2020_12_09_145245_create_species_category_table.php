@@ -16,7 +16,7 @@ class CreateSpeciesCategoryTable extends Migration
         Schema::create('species_category', function (Blueprint $table) {
             $table->increments('id', true)->unsigned();
             $table->string('name',99);
-            $table->string('slug', 20)->nullable();
+            $table->string('slug', 100)->nullable();
             $table->tinyInteger('active')->default(1);
             $table->tinyInteger('status')->default(1);
             $table->integer('cat_id')->nullable();

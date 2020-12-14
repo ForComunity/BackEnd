@@ -3,10 +3,6 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-
-
-
-
 ////Route::group(['middleware' => 'jwt.auth'], function () {
 ////    Route::get('getAdminInfo', 'AdminAuthController@getAdminInfo');
 ////});
@@ -47,7 +43,7 @@ use Illuminate\Support\Facades\Route;
 
 //--------------------------------------------------------------------------------------
 //authentication
-    //user
+//user
 Route::post('/register','UserController@register');
 Route::post('/login','UserController@login');
 Route::post('/user','UserController@index');
@@ -69,16 +65,35 @@ Route::apiResource('admin','AdminController');
 
 //api action
 Route::apiResource('category','CategoryController');
+Route::post('category/changeStatus/{id}','CategoryController@changeStatus');
 
 Route::apiResource('speciesCategory','SpeciesCategoryController');
+Route::post("speciesCategory/changeStatus/{id}","SpeciesCategoryController@changeStatus");
+Route::post("speciesCategory/changeActive/{id}","SpeciesCategoryController@changeActive");
+
 
 Route::apiResource('species','SpeciesController');
+Route::post("species/changeStatus/{id}","SpeciesController@changeStatus");
+Route::post("species/changeActive/{id}","SpeciesController@changeActive");
 
 Route::apiResource('contact','ContactController');
+
+Route::apiResource('comment','CommentController');
+Route::post("comment/changeStatus/{id}","CommentController@changeStatus");
 
 Route::apiResource('organizationCategory','OrganizationCategoryController');
 
 Route::apiResource('organization','OrganizationController');
 
-Route::post('uploadFileSave','FileController@FileSave');
-Route::post('uploadFileArticles','FileController@FileSaveArticles');
+Route::apiResource('rescueCategory','RescueCategoryController');
+
+Route::apiResource('rescue','RescueController');
+
+Route::apiResource('registToBeRescued','RegistToBeRescuedController');
+Route::post("registToBeRescued/changeStatus/{id}","RegistToBeRescuedController@changeStatus");
+
+
+Route::post('uploadFileCategory','FileController@FileCategory');
+Route::post('uploadFileSpecies','FileController@FileSpecies');
+Route::post('uploadFileOrganization','FileController@FileOrganization');
+Route::post('uploadFileFileRescueCategory','FileController@FileRescueCategory');
