@@ -17,8 +17,8 @@ class CreateSpeciesCategoryTable extends Migration
             $table->increments('id', true)->unsigned();
             $table->string('name',99);
             $table->string('slug', 100)->nullable();
-            $table->tinyInteger('active')->default(1);
-            $table->tinyInteger('status')->default(1);
+            $table->tinyInteger('active')->nullable()->default(1);
+            $table->tinyInteger('status')->nullable()->default(1);
             $table->integer('cat_id')->nullable();
             $table->timestamps();
 

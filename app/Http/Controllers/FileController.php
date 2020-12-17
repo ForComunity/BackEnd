@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\ArticleSpeciesModel;
 use App\Models\CategoryModel;
+use App\Models\OrganizationCategoryModel;
 use App\Models\OrganizationModel;
 use App\Models\RescueCategoryModel;
 use App\Models\SpeciesModel;
@@ -23,6 +23,12 @@ class FileController extends Controller
 
     public function FileRescueCategory(Request $request){
         $rescueCategory = new RescueCategoryModel();
+        if($request->hasFile('avatar')){
+            upload_image('avatar');
+        }
+    }
+    public function FileOrganizationCategory(Request $request){
+        $organizationCategory = new OrganizationCategoryModel();
         if($request->hasFile('avatar')){
             upload_image('avatar');
         }

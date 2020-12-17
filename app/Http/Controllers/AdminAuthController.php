@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Admin;
+use App\Models\AdminModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -21,7 +22,7 @@ class AdminAuthController extends Controller
         if($validator->fails()){
             return response()->json($validator->errors()->toJson(), 400);
         }
-        $admin = Admin::create([
+        $admin = AdminModel::create([
             'name'=> $request->json()->get('name'),
             'email'=>$request->json()->get('email'),
             'password'=>Hash::make($request->json()->get('password')),
@@ -41,6 +42,18 @@ class AdminAuthController extends Controller
             return response()->json(['error'=>'could not create token'], 500);
         }
         return response()->json(compact('token'));
+//        $credentials = $request->json()->all();
+//        try {
+//            if (!$token = JWTAuth::attempt($credentials)) {
+//                return response()->json(['error' => 'Tài khoản mật khẩu không khớp'], 400);
+//            }
+//        } catch (JWTException $e) {
+//            return response()->json(['error' => 'could not create token'], 500);
+//        }
+//        $admin = AdminModel::where([
+//            'email' => $request->email
+//        ])->get();
+//        return response()->json(compact('admin', 'token'));
     }
 
     public function getAdminInfo(){

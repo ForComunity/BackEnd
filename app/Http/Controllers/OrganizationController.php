@@ -101,24 +101,10 @@ class OrganizationController extends Controller
         $organization->content3 = $request['content3'];
         $organization->cat_id = $request['cat_id'];
         $organization->user_id = $request['user_id'];
-        if ($request->hasFile('image1')) {
-            $file = upload_image('image1');
-            if (isset($file['name'])) {
-                $organization->image1 = $file['name'];
-            }
-        }
-        if ($request->hasFile('image2')) {
-            $file = upload_image('image2');
-            if (isset($file['name'])) {
-                $organization->image2 = $file['name'];
-            }
-        }
-        if ($request->hasFile('image3')) {
-            $file = upload_image('image3');
-            if (isset($file['name'])) {
-                $organization->image3 = $file['name'];
-            }
-        }
+        $organization->image1 = $request['image1'];
+        $organization->image2 = $request['image2'];
+        $organization->image3 = $request['image3'];
+
         $organization->update($request->all());
 //        $species->save();
         return response()->json($organization, 200);
@@ -132,5 +118,15 @@ class OrganizationController extends Controller
         }
         $organization->delete();
         return response()->json(null, 204);
+    }
+    public function changeStatus($id)
+    {
+        $organization = OrganizationModel::find($id);
+        if (is_null($organization)) {
+            return Response()->json(["message" => "Record not found!!"], 404);
+        }
+        $organization->status = $organization->status ? 0 : 1;
+        $organization->save();
+        return response()->json($organization, 200);
     }
 }

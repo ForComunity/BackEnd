@@ -26,7 +26,7 @@ class CreateRegistToBeRescuedTable extends Migration
             $table->integer('species_category_id');
             $table->integer('cat_id');
             $table->integer('user_id')->nullable();
-            $table->tinyInteger('status')->default(1);
+            $table->tinyInteger('status')->nullable()->default(1);
             $table->timestamps();
 
             $table->engine = 'InnoDB';

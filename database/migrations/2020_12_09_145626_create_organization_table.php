@@ -20,7 +20,7 @@ class CreateOrganizationTable extends Migration
             $table->string('title_seo', 99)->nullable();
             $table->string('slug', 99)->nullable();
             $table->text('description')->nullable();
-            $table->string('description_seo', 99)->nullable();
+            $table->text('description_seo')->nullable();
             $table->text('content1')->nullable();
             $table->text('content2')->nullable();
             $table->text('content3')->nullable();
@@ -29,8 +29,8 @@ class CreateOrganizationTable extends Migration
             $table->string('image3', 99)->nullable();
             $table->integer('cat_id')->nullable();
             $table->integer('user_id')->nullable();
-            $table->tinyInteger('status')->default(1);
-            $table->tinyInteger('active')->default(1);
+            $table->tinyInteger('status')->nullable()->default(1);
+            $table->tinyInteger('active')->nullable()->default(1);
             $table->timestamps();
 
             $table->engine = 'InnoDB';

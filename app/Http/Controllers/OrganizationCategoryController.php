@@ -61,12 +61,7 @@ class OrganizationCategoryController extends Controller
         }
         $organizationCategory->name = $request['name'];
         $organizationCategory->slug = str_slug($request['name']);
-        if($request->hasFile('avatar')){
-            $file = upload_image('avatar');
-            if(isset($file['name'])){
-                $organizationCategory->avatar= $file['name'];
-            }
-        }
+        $organizationCategory->avatar = $request['avatar'];
         $organizationCategory->save();
         return response()->json($organizationCategory, 200);
     }

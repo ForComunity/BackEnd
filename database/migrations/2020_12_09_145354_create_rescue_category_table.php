@@ -18,7 +18,7 @@ class CreateRescueCategoryTable extends Migration
             $table->string('name', 99);
             $table->string('slug', 99)->nullable();
             $table->string('avatar', 200)->nullable();
-            $table->tinyInteger('status')->default(1);
+            $table->tinyInteger('status')->nullable()->default(1);
             $table->timestamps();
 
             $table->engine = 'InnoDB';

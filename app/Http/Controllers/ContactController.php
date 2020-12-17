@@ -21,7 +21,6 @@ class ContactController extends Controller
             'name' => 'required',
             'email' => 'required',
             'phone' => 'required',
-            'address' => 'required',
             'message' => 'required',
         ];
         $validator = Validator::make($request->all(), $rules);
@@ -31,7 +30,6 @@ class ContactController extends Controller
         $contact->name = $request['name'];
         $contact->email = $request['email'];
         $contact->phone = $request['phone'];
-        $contact->address = $request['address'];
         $contact->message = $request['message'];
         $contact->save();
         return response()->json($contact, 201);

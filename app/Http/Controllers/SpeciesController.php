@@ -131,24 +131,9 @@ class SpeciesController extends Controller
         $species->content2 = $request['content2'];
         $species->content3 = $request['content3'];
         $species->status = $request['status'];
-        if ($request->hasFile('image1')) {
-            $file = upload_image('image1');
-            if (isset($file['name'])) {
-                $species->image1 = $file['name'];
-            }
-        }
-        if ($request->hasFile('image2')) {
-            $file = upload_image('image2');
-            if (isset($file['name'])) {
-                $species->image2 = $file['name'];
-            }
-        }
-        if ($request->hasFile('image3')) {
-            $file = upload_image('image3');
-            if (isset($file['name'])) {
-                $species->image3 = $file['name'];
-            }
-        }
+        $species->image1 = $request['image1'];
+        $species->image2 = $request['image2'];
+        $species->image3 = $request['image3'];
         $species->update($request->all());
 //        $species->save();
         return response()->json($species, 200);

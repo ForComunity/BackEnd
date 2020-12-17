@@ -3,9 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-////Route::group(['middleware' => 'jwt.auth'], function () {
-////    Route::get('getAdminInfo', 'AdminAuthController@getAdminInfo');
-////});
+
 //
 ////Route::get('articleSpecies','ArticleSpeciesController@ArticleSpecies');
 ////Route::get('articleSpecies/{id}','ArticleSpeciesController@ArticleSpeciesByID');
@@ -55,12 +53,17 @@ Route::group(['middleware' => 'jwt.auth'], function () {
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::apiResource('user','UserController');
+
 
     //admin
 Route::post('admin/register','AdminAuthController@register');
 Route::post('admin/login','AdminAuthController@login');
 Route::get('admin/getAdminInfo','AdminAuthController@getAdminInfo');
 
+Route::group(['middleware' => 'jwt.auth'], function () {
+    Route::get('getAdminInfo', 'AdminAuthController@getAdminInfo');
+});
 Route::apiResource('admin','AdminController');
 
 //api action
@@ -84,6 +87,8 @@ Route::post("comment/changeStatus/{id}","CommentController@changeStatus");
 Route::apiResource('organizationCategory','OrganizationCategoryController');
 
 Route::apiResource('organization','OrganizationController');
+Route::post("organization/changeStatus/{id}","OrganizationController@changeStatus");
+
 
 Route::apiResource('rescueCategory','RescueCategoryController');
 
@@ -96,4 +101,7 @@ Route::post("registToBeRescued/changeStatus/{id}","RegistToBeRescuedController@c
 Route::post('uploadFileCategory','FileController@FileCategory');
 Route::post('uploadFileSpecies','FileController@FileSpecies');
 Route::post('uploadFileOrganization','FileController@FileOrganization');
+Route::post('uploadFileOrganizationCategory','FileController@FileOrganizationCategory');
 Route::post('uploadFileFileRescueCategory','FileController@FileRescueCategory');
+
+Route::post('search','SearchController@search');

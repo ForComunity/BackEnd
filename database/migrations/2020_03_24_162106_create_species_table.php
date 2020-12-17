@@ -18,15 +18,15 @@ class CreateSpeciesTable extends Migration
             $table->string('name', 99)->nullable();
             $table->string('slug', 99)->nullable();
             $table->integer('spe_cat_id')->nullable();
-            $table->integer('status')->default(1);
-            $table->integer('active')->default(1);
+            $table->integer('status')->nullable()->default(1);
+            $table->integer('active')->nullable()->default(1);
             $table->integer('cat_id')->nullable();
             $table->integer('user_id')->nullable();
             $table->string('image1', 200)->nullable();
             $table->string('image2', 200)->nullable();
             $table->string('image3', 200)->nullable();
             $table->text('description')->nullable();
-            $table->string('description_seo', 1000)->nullable();
+            $table->text('description_seo')->nullable();
             $table->string('title', 1000)->nullable();
             $table->string('title_seo', 1000)->nullable();
             $table->text('content1')->nullable();

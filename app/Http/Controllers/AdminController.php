@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\Admin;
 use App\Models\AdminModel;
-use App\Models\ArticleSpeciesModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 

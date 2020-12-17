@@ -25,7 +25,7 @@ class CreateRescueTable extends Migration
             $table->integer('species_id')->nullable();
             $table->integer('cat_id')->nullable();
             $table->integer('user_id')->nullable();
-            $table->tinyInteger('status')->default(1);
+            $table->tinyInteger('status')->nullable()->default(1);
             $table->timestamps();
 
             $table->engine = 'InnoDB';

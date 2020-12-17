@@ -5,18 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
 
-class AdminModel extends Model implements \Tymon\JWTAuth\Contracts\JWTSubject
+class Admin extends Model implements \Tymon\JWTAuth\Contracts\JWTSubject
 {
     use Notifiable;
     protected $table = "admins";
 
     protected $fillable = [
-        'name',
-        'email',
-        'password',
-        'avatar',
-        'created_at',
-        'updated_at'
+        'name', 'email', 'password'
     ];
 
     protected $hidden = [

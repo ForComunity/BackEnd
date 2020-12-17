@@ -2,24 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8eb93d8-a816-4532-9e15-eb135ca62155" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Models/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo/logo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo/logofinal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo/logongang.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminAuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminAuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RegistToBeRescuedController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RegistToBeRescuedController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RescueCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RescueCategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RescueController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RescueController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SpeciesCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SpeciesCategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrganizationCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrganizationCategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrganizationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrganizationController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SpeciesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SpeciesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/CommentModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/CommentModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/SpeciesModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/SpeciesModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/AdminModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/AdminModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_24_162106_create_species_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_24_162106_create_species_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_09_145207_create_category_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_09_145207_create_category_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_09_145245_create_species_category_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_09_145245_create_species_category_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_09_145354_create_rescue_category_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_09_145354_create_rescue_category_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_09_145459_create_rescue_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_09_145459_create_rescue_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_09_145531_create_regist_to_be_rescued_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_09_145531_create_regist_to_be_rescued_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_09_145545_create_comment_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_09_145545_create_comment_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_09_145611_create_org_category_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_09_145611_create_org_category_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_09_145626_create_organization_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_09_145626_create_organization_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_09_153543_create_admin_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_09_153543_create_admin_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/12/2020-04-12__19875118-684344721768688-4360059032927594587-n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/12/2020-04-12__92561793-579648299575238-2820565573732139008-n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/12/2020-04-12__92664837-219830612617605-7779205651695140864-n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/12/2020-04-12__92741558-216336446371026-4322922782863130624-n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/12/2020-04-12__92948246-3357492904280326-5894778202135461888-n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/12/2020-04-12__93129933-217883816106503-5352278061184188416-n-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/12/2020-04-12__ec78952c602de06b3a614f1f72d3811e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/12/2020-04-12__logo-hedspi-consortium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/12/2020-04-12__sad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/13/2020-04-13__61354449-2004089789702732-2339345935965880320-n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/13/2020-04-13__91700690-1359436540926166-7605410268213936128-n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/13/2020-04-13__92561793-579648299575238-2820565573732139008-n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/13/2020-04-13__92664837-219830612617605-7779205651695140864-n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/13/2020-04-13__92696339-242252766910837-5349157965012140032-n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/13/2020-04-13__92741558-216336446371026-4322922782863130624-n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/13/2020-04-13__92934030-630146061167260-1505944507550531584-n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/13/2020-04-13__92948246-3357492904280326-5894778202135461888-n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/13/2020-04-13__93129933-217883816106503-5352278061184188416-n-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/13/2020-04-13__ec78952c602de06b3a614f1f72d3811e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/13/2020-04-13__logo-hedspi-consortium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/13/2020-04-13__project-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/13/2020-04-13__sad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/13/2020-04-13__v709-mynt-36-brushframe-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/13/2020-04-13__wallpaper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/14/2020-04-14__educational-technology-learning-moodle-distance-education-internet-education-png-clip-art-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/14/2020-04-14__pngtree-english-dictionary-png-image-1855182.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/14/2020-04-14__unnamed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/17/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/17/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/17/2020-04-17__1581823266144-sau-rieng-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/17/2020-04-17__1_qfjj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/17/2020-04-17__anh2_rvmz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/17/2020-04-17__d6e330fb407986881d1417cbb39ec189.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/17/2020-04-17__dai-hoi-giai-cuu-sau-rieng-tran-ngap-mxh-loan-gia-chat-luong-chi-duoc-dam-bao-bang-nhung-loi-hua-suong-2a30a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/17/2020-04-17__khoailang_fenb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/17/2020-04-17__sau_rieng_qytg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/17/2020-04-17__unnamed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/17/2020-04-17__xoai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/17/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/17/a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/17/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/17/p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2020/04/29/2020-04-29__pngtree-american-eagle-head-in-lowpoly-5316198.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +214,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/uploads/2020/04/17" />
+    <property name="last_opened_file_path" value="D:/react/Frontend-Admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -174,13 +224,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\Laravel\for_community\app\Models" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\Laravel\for_community\public\logo" />
+      <recent name="D:\xampp\htdocs\Laravel\for_community\app\Models" />
       <recent name="D:\xampp\htdocs\Laravel\for_community\public\uploads\2020\04\17" />
       <recent name="D:\xampp\htdocs\Laravel\for_community\app\Http\Controllers" />
       <recent name="D:\xampp\htdocs\Laravel\for_community\app" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\Laravel\for_community\app\Models" />
     </key>
   </component>
   <component name="RunManager">
@@ -292,6 +344,10 @@
       <workItem from="1607650426073" duration="9410000" />
       <workItem from="1607737191052" duration="12807000" />
       <workItem from="1607822299965" duration="26990000" />
+      <workItem from="1607952415627" duration="10369000" />
+      <workItem from="1608127404514" duration="1450000" />
+      <workItem from="1608185089727" duration="1611000" />
+      <workItem from="1608210995410" duration="9478000" />
     </task>
     <servers />
   </component>
@@ -306,26 +362,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="472" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1607529576750" />
-    <state x="499" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607881692443">
+    <state x="499" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608217570051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="499" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1607881692443" />
-    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1607857068883">
+    <state x="499" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1608217570051" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1608215328882">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602208843264" />
-    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1607857068883" />
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1608215328882" />
     <state width="555" height="446" key="SwitcherDM" timestamp="1607655690896">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="555" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1607655690896" />
-    <state x="463" y="149" width="609" height="536" key="find.popup" timestamp="1607857044777">
+    <state x="463" y="149" width="611" height="536" key="find.popup" timestamp="1607964769449">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="463" y="149" width="609" height="536" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1607857044777" />
-    <state x="425" y="71" width="670" height="676" key="search.everywhere.popup" timestamp="1607881001875">
+    <state x="463" y="149" width="611" height="536" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1607964769449" />
+    <state x="425" y="71" width="672" height="676" key="search.everywhere.popup" timestamp="1608216639995">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="425" y="71" width="670" height="676" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1607881001875" />
+    <state x="425" y="71" width="672" height="676" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1608216639995" />
   </component>
 </project>
